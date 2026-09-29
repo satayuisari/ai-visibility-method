@@ -28,3 +28,9 @@ questions (23–24 Sep 2026): named in 0 of 40 answers. Results are published
 monthly at https://fortyquestions.io, including the months they don't move.
 
 Maintained by Satayu Isariyaphorn · satayu@fortyquestions.io
+
+## Licence
+
+The method, cost notes and question sets are licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+Use and adapt them freely, including commercially; credit "Forty Questions (fortyquestions.io)".
