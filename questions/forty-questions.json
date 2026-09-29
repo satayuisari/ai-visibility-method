@@ -1,0 +1,34 @@
+{
+ "about": "Forty Questions measured on itself. Wording is frozen: it never changes, so month-to-month movement is the market, not the wording.",
+ "sets": {
+  "original": {
+   "first_collected": "2026-09-23",
+   "questions": [
+    "How do I measure how often AI assistants recommend my company?",
+    "Which tools track brand visibility in ChatGPT, Perplexity and Google AI answers?",
+    "Profound vs Otterly: which is better for a small B2B SaaS company?",
+    "What are the best alternatives to Profound for a small B2B SaaS company?",
+    "My competitors show up in ChatGPT answers and we don't. How do we fix that? We sell B2B software in Singapore."
+   ]
+  },
+  "niche": {
+   "frozen": "2026-09-24",
+   "first_collection": "2026-09-25",
+   "note": "Frozen before any new page shipped, so the baseline is taken before the fix.",
+   "questions": [
+    "How can a B2B software company in Singapore check whether ChatGPT recommends it?",
+    "Is there a service that measures and fixes how often AI assistants recommend a small B2B SaaS company in Australia?",
+    "How much does AI search optimisation (GEO) cost for a small B2B SaaS company in the UK?",
+    "Why does ChatGPT recommend my competitors but not my software company? We are in New Zealand.",
+    "How many times do you need to ask ChatGPT the same question to measure brand visibility reliably?"
+   ]
+  }
+ },
+ "assistants_counted": [
+  "ChatGPT",
+  "Claude",
+  "Google AI",
+  "Perplexity"
+ ],
+ "repeats": "3, on three separate days, each question in its own fresh session"
+}
