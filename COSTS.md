@@ -37,7 +37,7 @@ Perplexity is five times cheaper per answer than Claude. That does not make it f
 So the cost that matters is the cost of a comparable measurement, not the cost of a cheap one. An assistant configured to search shallowly is cheaper and tells you less. 
 ## Should you do it yourself 
 
-If the question is only “do we appear at all”, yes. Thirteen dollars and a day a month is genuinely less than any tool charges, and our [method is published in full](https://fortyquestions.io/method) so there is nothing to reverse-engineer. 
+If the question is only “do we appear at all”, yes. Twenty-five dollars and a day a month is genuinely less than any tool charges, and our [method is published in full](https://fortyquestions.io/method) so there is nothing to reverse-engineer. 
 
 Where do-it-yourself falls down is consistency. The number only means something if the questions never change, the runs happen on three separate days every month, and the counting rule stays fixed on the months the result disappoints you. That is not hard. It is just easy to stop doing, and a series with a gap in it cannot be compared to the month before. 
 
