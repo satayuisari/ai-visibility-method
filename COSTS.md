@@ -2,17 +2,19 @@
 
 Every figure below comes from calls we made and were billed for, not from a price list. If we have not made the call, the row is not here. 
 
-Measured 20–22 September 2026 · 151 billed calls · Satayu Isariyaphorn 
+Measured 20 September – 1 October 2026 · 1,742 billed calls · Satayu Isariyaphorn 
 
-Measuring 40 questions across four AI assistants, three times each — 480 answers — costs about **$13 a month**  in API charges. The expensive part is not the calls. It is the search-data plan needed to reach Google’s AI answers, and the day a month it takes a person to run it properly. 
+Measuring 40 questions across four AI assistants, three times each — 480 answers — costs about **$25 a month** in API charges. Claude is the expensive one, because every web search it runs adds about 20,000 tokens of reading. The other costs are the search-data plan needed to reach Google’s AI answers, and the day a month it takes a person to run it properly. 
 ## Measured cost per answer          
 | Assistant | Per answer | How we know | Calls measured |
 |---|---|---|---|
-| Perplexity | $0.0078 | Billed — the API returns the cost of the call | 40 |
-| Google AI Mode | $0.0250 | Search-data plan price ÷ its allowance | 5 |
-| ChatGPT | $0.0359 | Measured tokens and searches × published rate | 75 |
-| Claude | $0.0408 | Measured tokens and searches × published rate | 21 |
+| Perplexity | $0.0029 | Billed — the API returns the cost of the call | 520 |
+| Google AI Mode | $0.0250 | Search-data plan price ÷ its allowance | 480 |
+| ChatGPT | $0.0330 | Measured tokens and searches × published rate | 303 |
+| Claude | $0.1433 | Measured tokens and searches × published rate, up to 8 web searches per answer | 434 |
 | Gemini (no web search) | $0.0000 | Free tier, model only | 5 |
+
+**Correction, 1 October 2026.** The first version, measured on 21 calls, put Claude at $0.0408 an answer. On 434 calls it is $0.1433, because Claude searches the web two to four times for most buyer questions and each search adds roughly 20,000 input tokens. The monthly total moved from $13 to $25. Nothing else changed.
 
 Two of those are exact and two are arithmetic. Perplexity returns the cost of each call in its own response, so that row needs no estimate. Google AI Mode is billed per search by the plan, so the rate is the plan price divided by its allowance — real for the plan in force. ChatGPT and Claude report token and search counts, which we multiply by their published rates; the volume is measured, the rate is theirs, and an invoice is the final word. 
 ## What a real month costs 
@@ -20,12 +22,12 @@ Two of those are exact and two are arithmetic. Perplexity returns the cost of ea
 Forty questions, three repeats each, four counted assistants is 480 answers.         **** ****   
 | Line | Monthly |
 |---|---|
-| ChatGPT, 120 answers | $4.31 |
-| Claude, 120 answers | $4.90 |
+| ChatGPT, 120 answers | $3.96 |
+| Claude, 120 answers | $17.20 |
 | Google AI Mode, 120 answers | $3.00 |
-| Perplexity, 120 answers | $0.94 |
+| Perplexity, 120 answers | $0.35 |
 | Gemini, 120 answers beside the number | $0.00 |
-| API total | $13.14 |
+| API total | $24.51 |
 
 Then the parts nobody puts in the headline: a search-data plan to reach Google’s AI answers at all — ours is 1,000 searches a month, and one company at this cadence consumes 120 of them — and roughly a day a month of a person’s time to run the questions, check ambiguous matches by hand, and read the citations. 
 ## Why the cheapest assistant is not the best value 
